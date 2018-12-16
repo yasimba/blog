@@ -16,10 +16,12 @@
 title: "David Uche"
 email: 'yasimba90@gmail.com'
 description: "I'm a Computer Engineer that dabbles in all things hardware and software"
+logo: '/img/posts/logo.jpg'
+section_title: "Projects"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yasimba90.github.io/blog" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: 'yasimba'
-#medium_username: 'blog.yasimba.com'
+medium_username: 'medium.com/@yasimba90'
 
 # Build settings
 markdown: kramdown
