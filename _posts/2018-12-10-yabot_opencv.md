@@ -1,6 +1,6 @@
 ---
 layout: inner
-position: right
+position: left
 title: 'YaBot-Vision Control'
 date: 2018-12-10 15:31:0
 categories: development
