@@ -23,24 +23,35 @@
 	<!-- <link rel="stylesheet" href="css/themes/yellow-black.css"> -->
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- Fathom - simple website analytics - https://github.com/usefathom/fathom -->
+	<script>
+	(function(f, a, t, h, o, m){
+		a[h]=a[h]||function(){
+			(a[h].q=a[h].q||[]).push(arguments)
+		};
+		o=f.createElement('script'),
+		m=f.getElementsByTagName('script')[0];
+		o.async=1; o.src=t; o.id='fathom-script';
+		m.parentNode.insertBefore(o,m)
+	})(document, window, '//localhost/tracker.js', 'fathom');
+	fathom('set', 'siteId', 'RYIAM');
+	fathom('trackPageview');
+	</script>
+	<!-- / Fathom -->
+	
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141251025-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-141251025-1');
-</script>
-
 </head>
 <body>
 	<main>
 		<div class="intro">David Uche</div>
-		<div class="tagline">Hardware | Software | Music Producer </div>
+		<div class="tagline">Hardware | Software | Business</div>
 		<!-- Find your icons from here - https://fontawesome.com/icons?d=gallery&s=brands -->
 		<div class="icons-social">
-			<a target="_blank" href="https://github.com/yasimba"><i class="fab fa-github"></i></a>						
-			<a target="_blank" href="https://www.linkedin.com/in/dave-uche-540919124/"><i class="fab fa-linkedin"></i></a>			
+				<a target="_blank" href="https://www.linkedin.com/in/dave-uche-540919124/"><i class="fab fa-linkedin"></i></a>			
+			<a target="_blank" href="https://github.com/yasimba"><i class="fab fa-github"></i></a>									
+			<a target="_blank" href="https://twitter.com/th3ch073n1"><i class="fab fa-twitter"></i></a>			
+			<a target="_blank" href="https://medium.com/@yasimba90"><i class="fab fa-medium-m"></i></a>			
+			<a target="_blank" href="https://www.reddit.com/user/th3ch073n1"><i class="fab fa-reddit"></i></a>			
     </div>
 	</main>
 </body>
